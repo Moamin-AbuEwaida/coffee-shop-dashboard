@@ -1,15 +1,20 @@
 <template>
-  <hello-world />
+  <v-app :style="{ background: $vuetify.theme.themes.dark.background }">
+    <Sidebar />
+    <SidebarRight />
+  </v-app>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+import Sidebar from "@/components/Sidebar.vue";
+import SidebarRight from "@/components/SidebarRight.vue";
 
-  export default {
-    name: 'Home',
+export default {
+  name: "HomeView",
 
-    components: {
-      HelloWorld,
-    },
-  }
+  components: {
+    Sidebar,
+    SidebarRight,
+  },
+};
 </script>
