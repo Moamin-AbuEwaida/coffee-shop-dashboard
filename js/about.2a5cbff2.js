@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkcoffee_shop_dashboard"]=self["webpackChunkcoffee_shop_dashboard"]||[]).push([[443],{7750:function(s,e,n){n.r(e),n.d(e,{default:function(){return o}});var t=function(){var s=this;s._self._c;return s._m(0)},u=[function(){var s=this,e=s._self._c;return e("div",{staticClass:"about"},[e("h1",[s._v("This is an about page")])])}],a=n(1001),r={},f=(0,a.Z)(r,t,u,!1,null,null,null),o=f.exports}}]);
+//# sourceMappingURL=about.2a5cbff2.js.map
